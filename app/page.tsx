@@ -8,13 +8,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import {
-  CheckCircle,
-  Users,
-  Zap,
-  Shield,
-  ArrowRight,
-} from "lucide-react";
+import { CheckCircle, Users, Zap, Shield, ArrowRight } from "lucide-react";
 
 export default function SaaSLandingPage() {
   return (
@@ -26,7 +20,9 @@ export default function SaaSLandingPage() {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <Zap className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-gray-900">SaaSify</span>
+            <span className="text-xl font-bold text-gray-900">
+              SaaS-Machine
+            </span>
           </div>
           <nav className="hidden md:flex items-center space-x-8">
             <a

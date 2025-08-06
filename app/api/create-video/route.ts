@@ -76,6 +76,9 @@ export async function POST(request: Request) {
       // Don't set Content-Type header - let the browser set it with boundary for multipart/form-data
     });
 
+    console.log( n8nResponse)
+    console.log('----------------------------------------')
+
     if (!n8nResponse.ok) {
       console.error(
         "N8N webhook error:",
